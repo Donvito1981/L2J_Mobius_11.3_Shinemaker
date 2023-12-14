@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/teleporterData.xsd">
+	
+	<!-- Abandoned Coal Mines -->
+	<npc id="34551"> <!-- Investigators Teleporter -->
+		<teleport type="OTHER">
+			<location x="139396" y="-169445" z="-1600" /> <!-- 1st level -->
+			<location x="144978" y="-178158" z="360" /> <!-- 2nd level north -->
+			<location x="150614" y="-171945" z="360" /> <!-- 2nd level east -->
+			<location x="145927" y="-172153" z="2248" /> <!-- 3rd level -->
+		</teleport>
+	</npc>
+	
+	<!-- Fioren's Crystal Prison -->
+	<npc id="34529"> <!-- Storm Isle - Researchers' Teleporter -->
+		<teleport type="OTHER">
+			<location x="-12275" y="-20623" z="-8795" /> <!-- Fioren's Crystal Prison -->
+			<location x="194276" y="176595" z="-1888" /> <!-- Eastern Camp -->
+			<location x="167989" y="187546" z="-2232" /> <!-- Western Camp -->
+			<location x="191000" y="188118" z="-2656" /> <!-- Southern Camp -->
+			<location x="177925" y="172948" z="-2008" /> <!-- Northern Camp -->
+		</teleport>
+	</npc>
+	<npc id="34618"> <!-- Isle of Prayer - Researchers' Teleporter -->
+		<teleport type="OTHER">
+			<location x="-12275" y="-20623" z="-8795" /> <!-- Fioren's Crystal Prison -->
+			<location x="137250" y="177290" z="-3352" /> <!-- Eastern Camp -->
+			<location x="167989" y="187546" z="-2232" /> <!-- Western Camp -->
+			<location x="150287" y="195303" z="-3736" /> <!-- Southern Camp -->
+			<location x="148644" y="165369" z="-2792" /> <!-- Northern Camp -->
+		</teleport>
+	</npc>
+	<npc id="34624"> <!-- Aligator Island - Researchers' Teleporter -->
+		<teleport type="OTHER">
+			<location x="-12275" y="-20623" z="-8795" /> <!-- Fioren's Crystal Prison -->
+			<location x="121289" y="185601" z="-3587" /> <!-- Eastern Camp -->
+			<location x="103336" y="175669" z="-3408" /> <!-- Western Camp -->
+			<location x="115474" y="191553" z="-3368" /> <!-- Southern Camp -->
+			<location x="112640" y="165645" z="-3112" /> <!-- Northern Camp -->
+		</teleport>
+	</npc>
+	
+	<!-- Imperial Tomb -->
+	<npc id="34552"> <!-- Search Team's Teleporter -->
+		<teleport type="OTHER">
+			<location x="181384" y="-78674" z="-2728" /> <!-- Central Square -->
+			<location x="176502" y="-75456" z="-2728" /> <!-- Southern Corridor -->
+			<location x="182277" y="-83875" z="-6272" /> <!-- Northern Corridor -->
+			<location x="187952" y="-80972" z="-6264" /> <!-- Eastern Corridor -->
+		</teleport>
+	</npc>
+	
+	<!-- Jamoa's Camp -->	
+	<npc id="34526"> <!-- Primeval - Expedition Teleporter -->
+		<teleport type="OTHER">
+			<location x="-13551" y="-12693" z="-7227" /> <!-- Jamoa's Camp -->
+			<location x="9400" y="-21720" z="-3634" /> <!-- Eastern Camp -->
+			<location x="7917" y="-8322" z="-3608" /> <!-- Western Camp -->
+			<location x="21912" y="-6440" z="-2008" /> <!-- Southern Camp -->
+			<location x="21243" y="-20807" z="-3104" /> <!-- Northern Camp -->
+		</teleport>
+	</npc>
+	<npc id="34626"> <!-- Swamp of Screams - Expedition Teleporter -->
+		<teleport type="OTHER">
+			<location x="-13551" y="-12693" z="-7227" /> <!-- Jamoa's Camp -->
+			<location x="83659" y="-47655" z="-3224" /> <!-- Eastern Camp -->
+			<location x="69662" y="-50121" z="-3272" /> <!-- Western Camp -->
+			<location x="78699" y="-63804" z="-2296" /> <!-- Northern Camp -->
+		</teleport>
+	</npc>
+	<npc id="34628"> <!-- Blazing Swamp - Expedition Teleporter -->
+		<teleport type="OTHER">
+			<location x="-13551" y="-12693" z="-7227" /> <!-- Jamoa's Camp -->
+			<location x="152527" y="-15051" z="-4400" /> <!-- Eastern Camp -->
+			<location x="138634" y="-9690" z="-4448" /> <!-- Western Camp -->
+			<location x="141501" y="-26069" z="-1992" /> <!-- Northern Camp -->
+		</teleport>
+	</npc>
+		
+	<!-- Otherworldly Atelia Refinery -->
+	<npc id="34583"> <!-- Atelia Refinery Teleport Device -->
+		<teleport type="OTHER">
+			<location x="-49033" y="15362" z="-8803" /> <!-- Area Controlled by Ressurected Pondus -->
+			<location x="-49033" y="19645" z="-8688" /> <!-- Area Controlled by Ressurected Excuro -->
+			<location x="-49033" y="11036" z="-8923" /> <!-- Area Controlled by Ressurected Spira -->
+		</teleport>
+	</npc>
+	
+	<!-- Pantheon's Museum -->
+	<npc id="34524"> <!-- Golden Altar of the Isle of Souls - Overseer Teleporter -->
+		<teleport type="OTHER">
+			<location x="-20755" y="-12091" z="-7347" /> <!-- Pantheon's Museum -->
+			<location x="-109711" y="75449" z="-3184" /> <!-- Golden Hills (north) -->
+			<location x="-112320" y="91965" z="-3184" /> <!-- Golden Hills (south) -->
+			<location x="-112756" y="91958" z="-3163" /> <!-- Golden Altar -->
+		</teleport>
+	</npc>
+	<npc id="34630"> <!-- Mimir's Altar of the Isle of Souls - Overseer Teleporter -->
+		<teleport type="OTHER">
+			<location x="-20755" y="-12091" z="-7347" /> <!-- Pantheon's Museum -->
+			<location x="-94625" y="51773" z="-2024" /> <!-- Mimir's Altar -->
+			<location x="-86475" y="36997" z="-2048" /> <!-- Nornil's Altar -->
+			<location x="-74376" y="53733" z="-3672" /> <!-- Isle of Souls Harbor -->
+			<location x="-110544" y="47480" z="-1056" /> <!-- Kamael Village (East) -->
+			<location x="-119643" y="52494" z="-1000" /> <!-- Kamael Village (South) -->
+		</teleport>
+	</npc>
+	<npc id="34632"> <!-- Plunderous Plains - Overseer Teleporter -->
+		<teleport type="OTHER">
+			<location x="-20755" y="-12091" z="-7347" /> <!-- Pantheon's Museum -->
+			<location x="112284" y="-154167" z="-1534" /> <!-- Railroad Station -->
+			<location x="106264" y="-149305" z="-2517" /> <!-- Plunderous Plains (West) -->
+			<location x="120600" y="-149899" z="-3289" /> <!-- Plunderous Plains (East) -->
+			<location x="113367" y="-144786" z="-3271" /> <!-- Sky Wagon Relic -->
+		</teleport>
+	</npc>
+	
+	<!-- Ravaged Innadril -->
+	<npc id="34646"> <!-- Heine - Lionel Hunter Teleporter -->
+		<teleport type="OTHER">
+			<location x="95983" y="170989" z="-3640" /> <!-- Field of Silence -->
+			<location x="81435" y="226624" z="-3592" /> <!-- Field of Whispers -->
+			<location x="114525" y="202502" z="-3400" /> <!-- Alligator Beach -->
+		</teleport>
+	</npc>
+	<npc id="34568"> <!-- Field of Silence - Patrol Teleporter -->
+		<teleport type="OTHER">
+			<location x="110934" y="220161" z="-3667" /> <!-- Return to Heine -->
+			<location x="90327" y="198818" z="-3280" /> <!-- Eastern Border -->
+			<location x="80089" y="196453" z="-2792" /> <!-- Western Border -->
+			<location x="96046" y="171015" z="-3640" /> <!-- East of the Field of Silence -->
+			<location x="77767" y="183441" z="-3576" /> <!-- Western part of the Field of Silence -->
+			<location x="95981" y="210144" z="-3456" /> <!-- Eastern part of the Field of Whispers -->
+			<location x="81394" y="226502" z="-3584" /> <!-- Western part of the Field of Whispers -->
+		</teleport>
+	</npc>
+	<npc id="34647"> <!-- Alligator Beach - Patrol Teleporter -->
+		<teleport type="OTHER">
+			<location x="110934" y="220161" z="-3667" /> <!-- Return to Heine -->
+			<location x="118685" y="224977" z="-3251" /> <!-- Southern part of the Alligator Beach -->
+			<location x="114532" y="202511" z="-3425" /> <!-- Northern of the Alligator Beach -->
+		</teleport>
+	</npc>	
+
+	<!-- Tower of Insolence -->
+	<npc id="34549"> <!-- Teleporter Scout -->
+		<teleport type="OTHER">
+			<location x="-82014" y="16247" z="-15411" /> <!-- Tower of Insolence (1st Floor) -->
+			<location x="-82018" y="16241" z="-12920" /> <!-- Tower of Insolence (2nd Floor) -->
+			<location x="-82018" y="16241" z="-10296" /> <!-- Tower of Insolence (3rd Floor) -->
+			<location x="-147664" y="21384" z="-14517" /> <!-- Tower of Insolence (4th Floor) -->
+			<location x="-147643" y="21347" z="-12021" /> <!-- Tower of Insolence (5th Floor) -->
+			<location x="-147643" y="21372" z="-9398" /> <!-- Tower of Insolence (6th Floor) -->
+			<location x="-147551" y="53511" z="-14644" /> <!-- Tower of Insolence (7th Floor) -->
+			<location x="-147551" y="53524" z="-12146" /> <!-- Tower of Insolence (8th Floor) -->
+			<location x="-147551" y="53504" z="-9522" /> <!-- Tower of Insolence (9th Floor) -->
+		</teleport>
+	</npc>
+</list>

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="31300" toLevel="9" name="Fantasia Ring">
+		<!-- <font color="ECECEC"><Two-handed sword></font>\nAttacks surrounding enemies with a colorful round shield dealing M. AoE damage. Power 169. For 10 sec., the enemies' P./ M. Def. -35%.\n\n<font color="ECECEC"><Bow></font>\n<font color="A3A3A3">Range:</font> <font color="B09B79">800</font>\n<font color="A3A3A3">Cooldown:</font> <font color="B09B79">40 sec.</font>\n\nCreates a round mark and shoots a magic arrow in its center dealing M. AoE damage. Power 212. For 5 sec., the affected enemies' Atk. Spd./ Casting Spd. -30%.\n\nRequires a two-handed sword or a bow. -->
+		<icon>icon.maker_skill_debuff</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>7000</reuseDelay>
+		<effectPoint>-696</effectPoint>
+		<mpConsume>
+			<value level="1">51</value>
+			<value level="2">69</value>
+			<value level="3">72</value>
+			<value level="4">74</value>
+			<value level="5">75</value>
+			<value level="6">76</value>
+			<value level="7">77</value>
+			<value level="8">79</value>
+			<value level="9">80</value>
+		</mpConsume>
+	</skill>
+	<skill id="31301" toLevel="9" name="Funky Star">
+		<!-- <font color="ECECEC"><Two-handed sword></font>\nAttacks surrounding enemies with colorful figures and a sword dealing M. AoE damage. Power 484. For 10 sec., the enemies' P./ M. Atk. -35%.\n\n<font color="ECECEC"><Bow></font>\n<font color="A3A3A3">Range:</font> <font color="B09B79">800</font>\n<font color="A3A3A3">Cooldown:</font> <font color="B09B79">10 sec.</font>\n\nArches a magic arrow at the target. The arrow deals M. AoE damage and creates a star-shaped figure on hit. Power 484. For 10 sec., the target's P./ M. Def. -35%, Critical Rate for basic attacks and P./ M. skills -20%, Critical Damage for basic attacks and P./ M. skills -20%.\n\nRequires a two-handed sword or a bow. -->
+		<icon>icon.maker_skill_debuff_2</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>7000</reuseDelay>
+		<effectPoint>-696</effectPoint>
+		<mpConsume>
+			<value level="1">67</value>
+			<value level="2">69</value>
+			<value level="3">72</value>
+			<value level="4">74</value>
+			<value level="5">75</value>
+			<value level="6">76</value>
+			<value level="7">77</value>
+			<value level="8">79</value>
+			<value level="9">80</value>
+		</mpConsume>
+	</skill>
+	<skill id="31302" toLevel="1" name="Sweet Signal">
+		<!-- <font color="ECECEC"><Two-handed sword></font>\nSummons a magic star-shaped figure that deals M. damage around you. Power 806. The more enemies are in the skill area, the higher the damage dealt. Also, resets the Shining Surprise cooldown.\n\n<font color="ECECEC"><Bow></font>\n<font color="A3A3A3">Range:</font> <font color="B09B79">800</font>\n<font color="A3A3A3">Cooldown:</font> <font color="B09B79">20 sec.</font>\n\nCreates a diamond-shaped figure and shoots a magic arrow through it. The arrow deals M. damage to the target and enemies along the way. Power 806. The more enemies are in the skill area, the higher the damage dealt. High Critical rate.\n\nConsumes 2 Spirit Ore.\nRequires a two-handed sword or a bow. -->
+		<icon>icon.maker_skill_special</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<hitTime>7000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>20000</reuseDelay>
+		<effectPoint>-687</effectPoint>
+		<mpConsume>270</mpConsume>
+	</skill>
+	<skill id="31303" toLevel="4" name="Starlight Bubbles">
+		<!-- <font color="ECECEC"><Two-handed sword></font>\nFocuses light into a powerful beam that deals M. AoE damage to the target and enemies along the way. Power 660. Additionally, applies a debuff that increases the enemies' received M. damage by 10% and cancels their targets for 10 sec.\n\n<font color="ECECEC"><Bow></font>\n<font color="A3A3A3">Range:</font> <font color="B09B79">800</font>\n<font color="A3A3A3">Cooldown:</font> <font color="B09B79">20 sec.</font>\n\nCreates a star-shaped mark and shoots a magic arrow at it. The arrow deals M. damage to the target and enemies along the way. Power 660. Stuns the enemies for 5 sec.\nInflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown).\n\nRequires a two-handed sword or a bow. -->
+		<icon>icon.maker_skill_special_2</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<castRange>800</castRange>
+		<hitTime>5500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<effectPoint>-704</effectPoint>
+		<mpConsume>
+			<value level="1">741</value>
+			<value level="2">770</value>
+			<value level="3">801</value>
+			<value level="4">833</value>
+		</mpConsume>
+	</skill>
+	<skill id="31304" toLevel="9" name="Figure Fiesta">
+		<!-- <font color="ECECEC"><Two-handed sword></font>\nConcentrates your magic energy to create a square figure above you. The figure deals M. AoE damage and immobilizes the enemies for 3 sec. Power 152. Low Critical rate.\nInflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown).\n\n<font color="ECECEC"><Bow></font>\n<font color="A3A3A3">Range:</font> <font color="B09B79">800</font>\n<font color="A3A3A3">Cooldown:</font> <font color="B09B79">60 sec.</font>\n\nCreates a mark around the target and shoots a magic arrow at it. The arrow deals M. AoE damage and blocks affected enemies for 5 sec. Power 579.\nInflicted status: Obstruction (Disarm, Hold, Blind, Block, Aggression, Silence, Banishment, Bluff, Stealth).\n\nRequires a two-handed sword or a bow. -->
+		<icon>icon.maker_skill_weakness</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<hitTime>4500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-696</effectPoint>
+		<mpConsume>
+			<value level="1">68</value>
+			<value level="2">70</value>
+			<value level="3">73</value>
+			<value level="4">74</value>
+			<value level="5">76</value>
+			<value level="6">77</value>
+			<value level="7">78</value>
+			<value level="8">79</value>
+			<value level="9">80</value>
+		</mpConsume>
+	</skill>
+	<skill id="31305" toLevel="9" name="Trick Fiesta">
+		<!-- <font color="ECECEC"><Two-handed sword></font>\nCreates a round trap that deals M. damage to surrounding enemies and pulls them to you. Power 152. Low Critical rate.\n\nInflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown).\n\n<font color="ECECEC"><Bow></font>\n<font color="A3A3A3">Range:</font> <font color="B09B79">800</font>\n<font color="A3A3A3">Cooldown:</font> <font color="B09B79">120 sec.</font>\n\nShoots several magic arrows at the target. If your target is a character, removes invincibility from them. Additionally, deals M. damage to non-invincible targets and applies the Illusion Fiesta effect that blocks any invincibility effects for 10 sec. Power 350.\n\nRequires a two-handed sword or a bow. -->
+		<icon>icon.maker_skill_weakness_2</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<hitTime>4500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>15000</reuseDelay>
+		<effectPoint>-696</effectPoint>
+		<mpConsume>
+			<value level="1">68</value>
+			<value level="2">70</value>
+			<value level="3">73</value>
+			<value level="4">74</value>
+			<value level="5">76</value>
+			<value level="6">77</value>
+			<value level="7">78</value>
+			<value level="8">79</value>
+			<value level="9">80</value>
+		</mpConsume>
+	</skill>
+	<skill id="31306" toLevel="6" name="Twinkle Time">
+		<!-- Imbues your weapon with twinkling magic power. For 5 min., M. Skill Power +10%, M. Skill Critical Rate +10%, M. Skill Critical Damage +10%, Max MP +10%.\n\nRequires a two-handed sword or a bow. -->
+		<icon>icon.maker_force_buff</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<hitTime>4000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<effectPoint>687</effectPoint>
+		<mpConsume>
+			<value level="1">46</value>
+			<value level="2">49</value>
+			<value level="3">51</value>
+			<value level="4">53</value>
+			<value level="5">56</value>
+			<value level="6">58</value>
+		</mpConsume>
+	</skill>
+	<skill id="31307" toLevel="6" name="Fantasia Time">
+		<!-- Imbues your weapon with the amazing power of magic figures. For 20 sec., M. Skill Critical Rate +15%, M. Skill Critical Damage +30%, M. Skill Power +25%.\n\nConsumes 5 Spirit Ore. -->
+		<icon>icon.maker_force_special</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<hitTime>4000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>180000</reuseDelay>
+		<effectPoint>2</effectPoint>
+		<mpConsume>
+			<value level="1">87</value>
+			<value level="2">92</value>
+			<value level="3">97</value>
+			<value level="4">102</value>
+			<value level="5">107</value>
+			<value level="6">112</value>
+		</mpConsume>
+	</skill>
+	<skill id="31308" toLevel="2" name="Enter Shine Maker">
+		<!-- Imbues your weapon with the dazzling magic figure energy. For 5 min., Skill Cooldown -10%, M. Skill Power +10%.\n\nConsumes 10 Spirit Ore.\n\nRequires a two-handed sword or a bow. -->
+		<icon>icon.maker_force_master</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<hitTime>4000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<effectPoint>2</effectPoint>
+		<mpConsume>
+			<value level="1">670</value>
+			<value level="2">677</value>
+		</mpConsume>
+	</skill>
+	<skill id="31309" toLevel="3" name="Jump Sickness">
+		<!-- Your ears are ringing. -->
+		<icon>
+			<value level="1">icon.warp_debuff1</value>
+			<value level="2">icon.warp_debuff2</value>
+			<value level="3">icon.warp_debuff3</value>
+		</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="31310" toLevel="1" name="Shining Salvation Time">
+		<!-- Recovers 30% HP/ MP. Cooldown: 300 sec. (fixed). -->
+		<icon>icon.skill10285</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+		<effectPoint>687</effectPoint>
+	</skill>
+	<skill id="31311" toLevel="1" name="Shape Change">
+		<!-- Changes Shine Maker's appearance.\n\nWhen activated, shows the Dwarven appearance and default equipment.\n\nWhen deactivated, Shine Maker's appearance is displayed as is. -->
+		<icon>icon.change_death_armor</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31312" toLevel="9" name="Confusing Fiesta">
+		<!-- The Figure Fiesta effect. For 20 sec., P. Atk./ M. Atk./ P. Def./ M. Def. -35%. -->
+		<icon>icon.maker_skill_weakness</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="31313" toLevel="9" name="Illusion Fiesta">
+		<!-- The Trick Fiesta effect. For 10 sec., blocks invincibility. -->
+		<icon>icon.maker_skill_weakness_2</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="31314" toLevel="1" name="Shining Defense Time">
+		<!-- Colorful figures block one attack. -->
+		<icon>icon.maker_defence_buff2</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<reuseDelay>300000</reuseDelay>
+		<effectPoint>687</effectPoint>
+	</skill>
+</list>

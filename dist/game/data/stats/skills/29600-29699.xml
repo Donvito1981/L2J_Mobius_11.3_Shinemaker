@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="29600" toLevel="1" name="Blazing Dragon's Power">
+		<!-- Power of basic attacks and P./ M. skills +5%, Attribute Attack +100, Attribute Resistance +100 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29601" toLevel="1" name="Dragon Vanquisher">
+		<!-- PvP damage +10%, PvE damage +10%, received damage -10%, acquired XP/ SP +20% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29602" toLevel="1" name="Archangel's Blessing">
+		<!-- You are blessed by the Archangel. Vitality Consumption -30%. PvE damage +10%. Lv. 105-112: Acquired XP/ SP +100%. Lv. 113-120: Acquired XP/ SP +50%. Lv. 121+: Acquired XP/ SP +10% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29603" toLevel="1" name="Archangel's Blessing">
+		<!-- You are blessed by the Archangel.\nVitality Consumption -30%\nPvE damage +10%\nLv. 105-112: Acquired XP/ SP +100%\nLv. 113-120: Acquired XP/ SP +50%\nLv. 121+: Acquired XP/ SP +10% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29604" toLevel="1" name="Archangel's Blessing">
+		<!-- You are blessed by the Archangel.\nVitality Consumption -30%\nPvE damage +10%\nLv. 105-112: Acquired XP/ SP +100%\nLv. 113-120: Acquired XP/ SP +50%\nLv. 121+: Acquired XP/ SP +10% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29605" toLevel="1" name="Archangel's Blessing">
+		<!-- You are blessed by the Archangel.\nVitality Consumption -30%\nPvE damage +10%\nLv. 105-112: Acquired XP/ SP +100%\nLv. 113-120: Acquired XP/ SP +50%\nLv. 121+: Acquired XP/ SP +10% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29606" toLevel="1" name="Power of Abundance">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +5%, adena drop rate +5% -->
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29607" toLevel="1" name="Kingdom's Blessing">
+		<!-- Power of basic attacks and P./ M. skills +5%, P./ M. Def. +10%, acquired XP/ SP +10% -->
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29608" toLevel="1" name="Grimnir's Siege Golem">
+		<!-- Allows to mount a golem lent by Grimnir. -->
+		<icon>icon.skill19109</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29609" toLevel="1" name="Siege Golem's Strike">
+		<!-- Inflicts a powerfull attack that knocks nearby enemies back.\n\nInflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill_transform_debuff</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<hitTime>5000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>5000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+		<mpConsume>100</mpConsume>
+	</skill>
+	<skill id="29610" toLevel="1" name="Siege Golem's Hammer">
+		<!-- Forcefully attacks enemies at the front. -->
+		<icon>icon.skill_transform_s_attack</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>5000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>1000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+		<mpConsume>100</mpConsume>
+	</skill>
+	<skill id="29611" toLevel="1" name="Hammer Strike">
+		<icon>icon.skill0476</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29612" toLevel="1" name="Blunt Strike">
+		<icon>icon.skill0476</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29613" toLevel="1" name="Spear Strike">
+		<icon>icon.skill0921</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29614" toLevel="1" name="Piercing Attack">
+		<!-- A powerful attack that stuns the enemy.\n\nInflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill10262</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>15000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29615" toLevel="1" name="Stun Shot">
+		<!-- Shoots arrows dealing physical damage to the enemy and stunning them.\n\nInflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill0101</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>300</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29616" toLevel="1" name="Earth Spike">
+		<icon>icon.skill1148</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>300</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29617" toLevel="1" name="Earth Crash">
+		<icon>icon.skill11018</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>300</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>15000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29618" toLevel="1" name="Axe Strike">
+		<icon>icon.skill0921</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29619" toLevel="1" name="Mass Fear">
+		<!-- Forces enemies to flee in fear.\n\nInflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill1169</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29620" toLevel="1" name="Rush">
+		<!-- Rushes towards the enemy inflicting P. damage. -->
+		<icon>icon.skill0484</icon>
+		<operateType>A1</operateType>
+		<castRange>500</castRange>
+		<hitTime>300</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29621" toLevel="1" name="Steel Bomber">
+		<!-- Inflicts a powerful attack on the target.\n\nInflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill10262</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>80</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29622" toLevel="1" name="Rocket Firing">
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29623" toLevel="1" name="Double Lariat">
+		<!-- Spins continuously, striking nearby enemies with both arms. -->
+		<icon>icon.skill32617</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>7000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>60000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29624" toLevel="1" name="Shield Stun">
+		<!-- A shield bash that stuns the target.\n\nInflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill0092</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29625" toLevel="1" name="Aggression Aura">
+		<!-- Provokes the selected target into attacking you.\n\nInflicted status: Obstruction (Disarm, Hold, Blind, Block, Aggression, Silence, Banishment, Bluff, Stealth). -->
+		<icon>icon.skill0018</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>45000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29626" toLevel="1" name="Chain Strike">
+		<!-- Pulls a target to the character.\n\nInflicted status: Pull. -->
+		<icon>icon.skill10262</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>600</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>15000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29627" toLevel="1" name="Knight Frenzy">
+		<!-- Increases P. Def, M. Def, Speed, and Atk. Spd. -->
+		<icon>icon.skill10025</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>60000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29628" toLevel="1" name="Double Lariat">
+		<icon>icon.skill10262</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="29629" toLevel="1" name="NCJ 2023 Offline Event Festivities">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +5% -->
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29630" toLevel="10" name="XP - Illusory Equipment">
+		<!-- Acquired XP/ SP +$s1 -->
+		<icon>icon.skilltransform4</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="29631" toLevel="10" name="Weapon Upgrade - Illusory Equipment">
+		<!-- Weapon P./ M. Atk. +$s1. -->
+		<icon>icon.skilltransform2</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="29632" toLevel="10" name="Defense - Illusory Equipment">
+		<!-- P./ M. Def. +$s1. -->
+		<icon>icon.skilltransform1</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="29633" toLevel="5" name="Stats - Illusory Equipment">
+		<!-- All stats +$s1. -->
+		<icon>icon.skilltransform3</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="29634" toLevel="1" name="Worldwide Buff - Lv. 1">
+		<!-- You are blessed by the Archangel.\nVitality Consumption -5%\nPvE damage +3%\nLv. 105-112: Acquired XP/ SP +30%\nLv. 113-120: Acquired XP/ SP +15%\nLv. 121+: Acquired XP/ SP +3% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29635" toLevel="1" name="Worldwide Buff - Lv. 1">
+		<!-- You are blessed by the Archangel. Vitality Consumption -30%. PvE damage +10%. Lv. 105-112: Acquired XP/ SP +100%. Lv. 113-120: Acquired XP/ SP +50%. Lv. 121+: Acquired XP/ SP +10% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29636" toLevel="1" name="Worldwide Buff - Lv. 1">
+		<!-- You are blessed by the Archangel. Vitality Consumption -30%. PvE damage +10%. Lv. 105-112: Acquired XP/ SP +100%. Lv. 113-120: Acquired XP/ SP +50%. Lv. 121+: Acquired XP/ SP +10% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29637" toLevel="1" name="Worldwide Buff - Lv. 2">
+		<!-- You are blessed by the Archangel. Vitality Consumption -30%. PvE damage +10%. Lv. 105-112: Acquired XP/ SP +100%. Lv. 113-120: Acquired XP/ SP +50%. Lv. 121+: Acquired XP/ SP +10% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29638" toLevel="1" name="Worldwide Buff - Lv. 2">
+		<!-- You are blessed by the Archangel.\nVitality Consumption -10%\nPvE damage +5%\nLv. 105-112: Acquired XP/ SP +50%\nLv. 113-120: Acquired XP/ SP +30%\nLv. 121+: Acquired XP/ SP +5% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29639" toLevel="1" name="Worldwide Buff - Lv. 2">
+		<!-- You are blessed by the Archangel.\nVitality Consumption -10%\nPvE damage +5%\nLv. 105-112: Acquired XP/ SP +50%\nLv. 113-120: Acquired XP/ SP +30%\nLv. 121+: Acquired XP/ SP +5% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29640" toLevel="1" name="Worldwide Buff - Lv. 3">
+		<!-- You are blessed by the Archangel.\nVitality Consumption -30%\nPvE damage +10%\nLv. 105-112: Acquired XP/ SP +100%\nLv. 113-120: Acquired XP/ SP +50%\nLv. 121+: Acquired XP/ SP +10%\nItem drop rate from common monsters +5%\nAdena drop rate +2% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29641" toLevel="1" name="Worldwide Buff - Lv. 3">
+		<!-- You are blessed by the Archangel.\nVitality Consumption -30%\nPvE damage +10%\nLv. 105-112: Acquired XP/ SP +100%\nLv. 113-120: Acquired XP/ SP +50%\nLv. 121+: Acquired XP/ SP +10%\nItem drop rate from common monsters +5%\nAdena drop rate +2% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29642" toLevel="1" name="Worldwide Buff - Lv. 3">
+		<!-- You are blessed by the Archangel.\nVitality Consumption -30%\nPvE damage +10%\nLv. 105-112: Acquired XP/ SP +100%\nLv. 113-120: Acquired XP/ SP +50%\nLv. 121+: Acquired XP/ SP +10%\nItem drop rate from common monsters +5%\nAdena drop rate +2% -->
+		<icon>icon.skill5662</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29643" toLevel="2" name="Sefirin's Blessing - Common">
+		<!-- For $s1, the selected party member's Critical Rate for basic attacks and P./ M. skills, Critical Damage for basic attacks and P./ M. skills +$s2.\nThe effect does not stack with Prophecy of Might. -->
+		<icon>
+			<value level="1">icon.love_mark</value>
+			<value level="2">icon.love_potion_blessed</value>
+		</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>712</effectPoint>
+	</skill>
+	<skill id="29644" toLevel="1" name="Autumn Festival">
+		<!-- Power of basic attacks and P./ M. skills +5%, P./ M. Def. +10%, acquired XP/ SP +10% -->
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29645" toLevel="1" name="Autumn Festival Coin">
+		<!-- For 30 min., damage +10%, received damage -10%.\nDoes not stack with Freya's Charisma Potion, Einhasad's Charisma Potion and Freya's Luck Potion.\nThe effect can be removed with Alt + Left Mouse Button.\nCooldown: 5 min. The effect remains after death. Cannot be used in the Olympiad. -->
+		<icon>icon.etc_11th_token</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29646" toLevel="1" name="Freya's Ice Rose">
+		<!-- For 30 min., Max HP/ MP/ CP +30%, P. Atk./ M. Atk./ P. Def./ M. Def. +30%, Atk. Spd./ Casting Spd. +10%, Speed +20, Attribute Attack/ Resistance +100, damage +10%, P./ M. Skill Power +10%, acquired XP/ SP +30%, received damage -30 min.0, Skill MP Consumption -30 min.1. The effect remains after death. -->
+		<icon>icon.bm_freya_ice_rose</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29647" toLevel="1" name="Freya's Scroll of Storm">
+		<!-- For 10 min. while hunting, Vitality Consumption +150%, acquired XP/ SP +150%. The effect remains after death. Cooldown: 9 min. Available if 1 or more Vitality bar is full. Cannot be used in the Olympiad. Does not stack with Freya's Scroll of Blessing and Maphr's Scroll of Storm.\nTo remove the effect, press Alt + Left Mouse Button. -->
+		<icon>icon.bm_freya_storm_scroll</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>540000</reuseDelay>
+	</skill>
+	<skill id="29648" toLevel="1" name="Honey Dark Beer">
+		<!-- All stats +3, Vitality bonus +30%.\n\nThe effect remains after death. Cooldown: 5 min.\nCannot be used in the Olympiad. -->
+		<icon>icon.bm_royal_black_beer</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="29649" toLevel="1" name="Glowing Dragon's Attribute Potion (XP)">
+		<!-- For 30 min., Attribute Attack +70, Attribute Resistance +70, acquired XP/ SP +30%. The effect remains after death. -->
+		<icon>icon.bm_dragon_posion_special</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="29650" toLevel="1" name="Emperor's Special Cocktail">
+		<!-- For 60 min., applies the following effects: Musician's Melody Lv. 5, Fantasia Harmony Lv. 2, Drum Concert, Fantasia Melody, United Resistance.\n\nTo remove the effect, press Alt + Left Mouse Button. -->
+		<icon>icon.bm_special_cocktail_of_king_p</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="29651" toLevel="1" name="Shining Nevit's Gold Hourglass">
+		<!-- For 30 min., acquired XP/ SP while hunting +100%. Does not stack with Nevit's Gold Hourglass, Fall of the Dragon or Dandy's Home Run Ball. Cooldown: 5 min. -->
+		<icon>icon.bm_dragon_breath</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="29652" toLevel="5" name="Patron's Mark">
+		<!-- A special buff for those who have made a donation.\nSustains Vitality.\nEach consecutive donation increases the buff's duration by 60 min. -->
+		<icon>icon.love_potion_blessed</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>712</effectPoint>
+	</skill>
+	<skill id="29653" toLevel="1" name="Worldwide Buff">
+		<!-- Damage +10% -->
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29654" toLevel="1" name="Anniversary Firecracker">
+		<operateType>A1</operateType>
+		<reuseDelay>3000</reuseDelay>
+	</skill>
+</list>

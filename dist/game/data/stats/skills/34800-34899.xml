@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="34800" toLevel="1" name="Coatl's Rage">
+		<!-- Boss' tactics - targeted water animation / Coatl -->
+		<operateType>A1</operateType>
+		<isMagic>7</isMagic>
+		<hitTime>8000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34801" toLevel="1" name="Coatl's Rage - Launch Animation (Not used)">
+		<!-- Boss' tactics - targeted fire trigger animation / Coatl -->
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34802" toLevel="1" name="Coatl's Rage - Launch Animation (Not used)">
+		<!-- Boss' tactics - targeted earth trigger animation / Coatl -->
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34803" toLevel="1" name="Coatl's Rage - Launch Animation (Not used)">
+		<!-- Boss' tactics - targeted dark trigger animation / Coatl -->
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34804" toLevel="1" name="Coatl's Rage - Launch Animation (Not used)">
+		<!-- Boss' tactics - targeted water trigger animation / Coatl -->
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34805" toLevel="1" name="Coatl's Rage - Fire">
+		<icon>icon.absolute_revenge</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34806" toLevel="1" name="Totem Protection - Fire">
+		<!-- Grants immunity to the Coatl's Rage - Fire effect. -->
+		<icon>icon.skill32540</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="34807" toLevel="1" name="Totem Protection - Water">
+		<!-- Grants immunity to the Coatl's Rage - Water effect. -->
+		<icon>icon.skill34807</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="34808" toLevel="1" name="Totem Protection - Ice">
+		<!-- Grants immunity to the Coatl's Rage - Ice effect. -->
+		<icon>icon.skill32614</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="34809" toLevel="1" name="Totem Protection - Kasha">
+		<!-- Grants immunity to the Coatl's Rage - Kasha effect. P. Atk./ M. Atk./ P. Def./ M. Def. +10%. -->
+		<icon>icon.skill32522</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="34810" toLevel="1" name="Broken Totem Protection">
+		<!-- Totem does not react to the Coatl's Rage effect. Unable to block damage. -->
+		<icon>icon.s_erosion_debuff</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="34811" toLevel="1" name="Coatl's Rage - Ice">
+		<icon>icon.absolute_revenge</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34812" toLevel="1" name="Coatl's Rage - Kasha">
+		<icon>icon.absolute_revenge</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34813" toLevel="1" name="Coatl's Rage - Water">
+		<icon>icon.absolute_revenge</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34814" toLevel="10" name="Critical Rate Resistance">
+		<!-- Slightly decreases received Critical Rate. -->
+		<icon>icon.skill1499</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34815" toLevel="10" name="Critical Damage Resistance">
+		<!-- Slightly decreases received Critical Damage. -->
+		<icon>icon.skill19129</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34816" toLevel="1" name="Kasha's Unbreakable Defense">
+		<!-- Due to Kasha's defense, all attacks including Rage do not deal any damage. -->
+		<icon>icon.skill32656</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="34817" toLevel="1" name="Totem Protection - Infinity">
+		<!-- Infinite number of attempts based on the test. Immunity test skill Crippling Attack. 11,509 -->
+		<icon>icon.skill32540</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="34818" toLevel="1" name="Totem Protection - Prophecy of Might Immunity">
+		<!-- Test effect of immunity-granting skill. -->
+		<icon>icon.skill32540</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="34819" toLevel="1" name="Totem Protection - Passive">
+		<!-- A passive skill with a specified number of attempts to get influence. Immunity test skill Crippling Attack. 11,509 -->
+		<icon>icon.skill32540</icon>
+		<operateType>A2</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+	</skill>
+	<skill id="34820" toLevel="10" name="Received Damage Resistance">
+		<!-- Slightly decreases received damage. -->
+		<icon>icon.skill0010</icon>
+		<operateType>A2</operateType>
+	</skill>
+</list>
